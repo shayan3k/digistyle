@@ -1,0 +1,78 @@
+// Body
+$body-bg: #f8fafc;
+$bg-links: rgb(91, 140, 247);
+// Typography
+$font-family-sans-serif: "Nunito", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+$brand-primary: #18fc9d;
+$brand-secondary: rgb(255, 255, 255);
+$brand-background: hsl(214, 19%, 93%);
+$brand-navbar: #41658a;
+$brand-navbar-items: gray;
+$brand-navbar-items-hover: #eee;
+$brand-navbar-items-hover-text: black;
+$brand-seperator: #86bbbd;
+$brand-fourthly: blue;
+$brand-hover: #466060;
+$brand-footer: #86bbbd;
+$brand-mega-menu: #f4fad1;
+$brand-mega-menu-items: rgb(15, 12, 12);
+$brand-primary-lighter: #b6faca;
+$brand-whitish: #eee;
+$brand-section-title-toggler: #c6da97;
+$brand-section-title: #f4fad1;
+$brand-card-rond: rgba(255, 0, 0, 0.87);
+$brand-card-nime-rond: rgba(255, 0, 0, 0.87);
+$brand-advertisers: rgb(236, 246, 250);
+$brand-advertiser-border: #9dcdf5;
+$brand-vip-advertisers: #c5d2db;
+$brand-vip-advertisers-second: #a686f0;
+$brand-vip-advertisers-border: rgb(69, 0, 133);
+$brand-search-box: #f4fad1;
+$brand-main-ads: #f4fad1;
+$brand-custom: #f4fad1;
+$brand-select-bg: transparent;
+$brand-select-panel: white;
+$brand-select-hover: rgb(88, 88, 88);
+$brand-black: #000000;
+$brand-white: #f0f0f0;
+$brand-text-white: rgb(243, 241, 241);
+$brand-text-black: black;
+$brand-navbar2: rgb(46, 48, 49);
+$search-options-item: rgba(250, 182, 104, 0.534);
+$btn-search-option: rgba(41, 88, 160, 0.767);
+$btn-search: rgba(250, 140, 140, 0.87);
+$font-datePicker: 0.6rem;
+$bg-admin-advertisers: rgb(247, 226, 168);
+$bg-ghavanin-contents: #f4fad1;
+
+///////////////////////////////////////////
+
+$brand-clipPath: polygon(
+  0 0,
+  0 0,
+  0 0,
+  80% 1%,
+  100% 19%,
+  100% 20%,
+  100% 100%,
+  100% 100%,
+  100% 100%,
+  20% 100%,
+  0 80%,
+  0 80%
+);

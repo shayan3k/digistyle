@@ -1,0 +1,274 @@
+@import "fontConfig";
+@import "variables";
+@import "config";
+
+//GLOBAL CLASSES
+* {
+  font-family: "Vazir", sans-serif;
+  text-align: right;
+  scroll-behavior: smooth !important;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+/////////////////////////
+//navbar
+/////////////////////////
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.form-navbar-search {
+  border-bottom: 2px solid white !important;
+}
+.input-navbar-search {
+  outline: 0 !important;
+  border: none !important;
+  background: transparent;
+  color: white;
+  &:focus {
+    color: black;
+  }
+  &::placeholder {
+    color: white;
+  }
+}
+
+.btn-navbar-search {
+  outline: 0 !important;
+  border: none !important;
+  i {
+    color: white;
+  }
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: white;
+  border-bottom: 1px solid white;
+  &:hover {
+    color: white;
+  }
+}
+
+.nav-item {
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link-login {
+  &:hover {
+    color: rgb(140, 228, 166);
+  }
+}
+
+.nav-link-heart {
+  &:hover {
+    color: rgb(246, 55, 55);
+  }
+}
+
+.nav-link-save {
+  &:hover {
+    color: rgb(90, 174, 195);
+  }
+}
+
+.nav-link-shoppingcart {
+  &:hover {
+    color: rgb(255, 214, 79);
+  }
+}
+
+.span-shoppingcart-number {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 10px;
+  background: rgb(14, 117, 250);
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+/////////////////////////
+//hero
+/////////////////////////
+.hero {
+}
+
+.swiper-pagination-bullets {
+  position: absolute;
+  bottom: 15%;
+  right: 6%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination-bullet {
+  width: 10px !important;
+  height: 10px !important ;
+  z-index: 10;
+  border-radius: 50%;
+  background: transparent;
+  border: 1.5px solid white;
+  margin: 0 2.3px;
+  cursor: pointer;
+}
+.swiper-pagination-bullet-active {
+  background: white;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  border: none;
+  outline: none;
+  position: absolute;
+  bottom: 6%;
+  right: 6%;
+  z-index: 2;
+  background: transparent;
+  cursor: pointer;
+
+  i {
+    color: white;
+  }
+}
+
+.swiper-button-prev {
+  right: calc(6% + 55px);
+}
+
+////////////
+//popular brands
+/////////////////
+
+.popular-brands {
+  font-size: 30px;
+  font-size: 1.875rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: normal;
+  font-weight: 500;
+  color: black;
+}
+
+.popular-brands-title {
+}
+
+.brands-banner-title {
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.2;
+  font-weight: 500;
+  span {
+    background: rgba(100, 100, 100, 0.541);
+    color: white;
+    padding: 0.4em 1.1em;
+    clip-path: $brand-clipPath;
+  }
+}
+
+.brands-banner-desc {
+  font-size: 14px;
+  font-weight: 400;
+  font-weight: 500;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: 0.7;
+  background: rgb(111, 180, 245);
+  padding: 0.4em 1.1em;
+  color: white;
+  clip-path: $brand-clipPath;
+}
+
+////////////
+//Best brands
+/////////////////
+
+.best-brands-banner {
+}
+
+.best-brands-banner-border-right {
+  border-right: 2px solid black;
+}
+.best-brands-banner-title {
+  font-size: 1.875rem;
+  font-weight: 400;
+  font-weight: 500;
+  color: #000;
+}
+
+.best-brands-banner-item {
+  height: 80px !important;
+}
+
+.best-brands-banner-link {
+  transition: all 0.1s;
+  border-radius: 3px;
+  &:hover {
+    filter: grayscale(100%);
+    border: 2px solid black;
+  }
+}
+
+////////////////
+//support section
+/////////////////
+
+.support-section-h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 1.5;
+  width: 100%;
+  text-align: center;
+}
+.support-section-h3 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  letter-spacing: normal;
+  line-height: 1.5;
+  width: 100%;
+  text-align: center;
+}
+
+.support-section-link {
+  text-decoration: none;
+  color: black;
+  &:hover {
+    text-decoration: none;
+    color: black;
+  }
+}
+.support-section-subheader {
+  font-size: 1.875rem;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: normal;
+  margin: 15px 0 10px;
+}
+
+.support-section-text {
+  color: #666;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.5;
+}
