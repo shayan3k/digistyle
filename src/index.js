@@ -5,9 +5,10 @@ import "@fortawesome/fontawesome-free/css/all.css";
 import "swiper/swiper.scss";
 import "./scss/style.scss";
 import $ from "jquery";
+import App from "./App";
+
 window.jQuery = $;
 require("bootstrap");
-import App from "./App";
 
 // import * as serviceWorker from "./serviceWorker";
 
