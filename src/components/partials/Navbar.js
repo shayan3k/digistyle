@@ -1,9 +1,13 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
+import MegaMenuImg1 from "../../images/megaMenuMen1.png";
+import MegaMenuImg2 from "../../images/megaMenuMen2.png";
+import MegaMenuImg3 from "../../images/megaMenuMen3.png";
+import MegaMenuImg4 from "../../images/megaMenuMen4.png";
 export default function Navbar() {
   return (
     <nav className="container-fluid navbar row m-0 p-0">
-      <div className="col-4 ">
+      <div className="col-4">
         <form className="form-navbar-search w-50 mx-auto">
           <input
             className="input-navbar-search font4"
@@ -15,18 +19,46 @@ export default function Navbar() {
           </button>
         </form>
       </div>
-      <a className="col-4 navbar-brand m-0 text-center" href="#">
-        <span className="font10">D</span>
-        <span className="font10">I</span>
-        <span className="font10">G</span>
-        <span className="font10">I</span>
-        <span className="font10">S</span>
-        <span className="font10">T</span>
-        <span className="font10">Y</span>
-        <span className="font10">L</span>
-        <span className="font10">E</span>
-      </a>
-
+      <div className="col-4 text-center">
+        <a className="m-0 text-center navbar-brand" href="#">
+          <span className="font10">D</span>
+          <span className="font10">I</span>
+          <span className="font10">G</span>
+          <span className="font10">I</span>
+          <span className="font10">S</span>
+          <span className="font10">T</span>
+          <span className="font10">Y</span>
+          <span className="font10">L</span>
+          <span className="font10">E</span>
+        </a>
+        <div className="mega-menu row m-0 mt-md-2 mx-auto p-0">
+          <ul
+            className="col-6 d-flex justify-content-between align-items-center list-unstyled"
+            style={{ borderRight: "1px solid white" }}
+          >
+            <li className="mega-menu-li">
+              <Link className="mega-menu-link">کارت هدیه</Link>
+            </li>
+            <li className="mega-menu-li">
+              <Link className="mega-menu-link">فروش ویژه</Link>
+            </li>
+            <li className="mega-menu-li">
+              <Link className="mega-menu-link">برندها</Link>
+            </li>
+          </ul>
+          <ul className="col-6 d-flex justify-content-between align-items-center list-unstyled">
+            <li className="mega-menu-li">
+              <Link className="mega-menu-link">بچه گانه</Link>
+            </li>
+            <li className="mega-menu-li">
+              <Link className="mega-menu-link">زنانه</Link>
+            </li>
+            <li className="mega-menu-li">
+              <Link className="mega-menu-link">مردانه</Link>
+            </li>
+          </ul>
+        </div>
+      </div>
       <div
         className="collapse navbar-collapse col-4 m-0 d-none d-md-block d-flex justify-content-center align-items-center"
         id="navbarTogglerDemo02"
@@ -78,6 +110,101 @@ export default function Navbar() {
             </a>
           </li>
         </ul>
+      </div>
+      <div className="col-12 position-relative">
+        <div className="mega-menu-section">
+          <div className="container px-md-5 row my-5 mx-auto">
+            <div className="col-6">
+              <h1 className="mega-menu-title">برترین برندهای لباس مردانه</h1>
+              <div className="row m-0 p-0">
+                <div className="col-6 p-0 m-0">
+                  <img src={MegaMenuImg1} alt="عکس" className="w-100" />
+                </div>
+                <div className="col-6 p-0 m-0">
+                  <img src={MegaMenuImg1} alt="عکس" className="w-100" />
+                </div>
+                <div className="col-6 p-0 m-0">
+                  <img src={MegaMenuImg1} alt="عکس" className="w-100" />
+                </div>
+                <div className="col-6 p-0 m-0">
+                  <img src={MegaMenuImg1} alt="عکس" className="w-100" />
+                </div>
+              </div>
+            </div>
+            <div className="col-6 text-right">
+              <h1 className="mega-menu-title">خرید لبای مردانه</h1>
+              <div className="row m-0 p-0">
+                <ul className="col-6 m-0 list-unstyled">
+                  <li>
+                    <Link className="mega-menu-banner-link">
+                      کت پاییزه و زمستانی
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="mega-menu-banner-link">کاپشن</Link>
+                  </li>
+                  <li>
+                    <Link className="mega-menu-banner-link">جلیقه پاییزه</Link>
+                  </li>
+                  <li>
+                    <Link className="mega-menu-banner-link">
+                      {" "}
+                      کت جین ست رسمی
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="mega-menu-banner-link">پیراهن</Link>
+                  </li>
+                  <li>
+                    <Link className="mega-menu-banner-link">ژاکت و پلیور</Link>
+                  </li>
+                  <li>
+                    <Link className="mega-menu-banner-link">سویشرت و هودی</Link>
+                  </li>
+                  <li>
+                    <Link className="mega-menu-banner-link">
+                      تی شرت و پولو شرت
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="mega-menu-banner-link">
+                      راحتی شلوار و شلوارک
+                    </Link>
+                  </li>
+                </ul>
+                <ul className="col-6 m-0  list-unstyled">
+                  <li>
+                    <Link className="mega-menu-banner-link">جوراب و ساق</Link>
+                  </li>
+                  <li>
+                    <Link className="mega-menu-banner-link">لباس راحتی </Link>
+                  </li>
+                  <li>
+                    <Link className="mega-menu-banner-link">لباس زیر</Link>
+                  </li>
+                  <li>
+                    <Link className="mega-menu-banner-link">فروش ویژه</Link>
+                  </li>
+                  <li>
+                    <Link className="mega-menu-banner-link">فروش ویژه</Link>
+                  </li>
+                  <li>
+                    <Link className="mega-menu-banner-link">
+                      {" "}
+                      جدیدترین‌ها برترین
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="mega-menu-banner-link">
+                      {" "}
+                      برندهای لباس مردانه
+                    </Link>
+                  </li>{" "}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </nav>
   );

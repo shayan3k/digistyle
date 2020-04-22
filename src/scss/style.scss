@@ -151,6 +151,53 @@ body {
   right: calc(6% + 55px);
 }
 
+///////////////
+//Mega menu
+///////////////
+.mega-menu {
+}
+
+.mega-menu-link {
+  font-size: 0.78rem;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: all 325ms;
+  font-weight: 500;
+  &:hover {
+    color: rgb(109, 183, 233);
+    text-decoration: none;
+    font-weight: 600;
+  }
+}
+
+.mega-menu-section {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 85vh;
+  background: white;
+}
+
+.mega-menu-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 35px;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.mega-menu-banner-link {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.657);
+  margin-bottom: 30px;
+  &:hover {
+    color: black;
+    text-decoration: none;
+  }
+}
 ////////////
 //popular brands
 /////////////////
