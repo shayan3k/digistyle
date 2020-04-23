@@ -17,25 +17,24 @@ body {
 //navbar
 /////////////////////////
 .navbar {
-  position: absolute;
   top: 0;
   left: 0;
   z-index: 2;
 }
 
 .form-navbar-search {
-  border-bottom: 2px solid white !important;
+  border-bottom: 2px solid black !important;
 }
 .input-navbar-search {
   outline: 0 !important;
   border: none !important;
   background: transparent;
-  color: white;
+  color: black;
   &:focus {
     color: black;
   }
   &::placeholder {
-    color: white;
+    color: black;
   }
 }
 
@@ -43,16 +42,16 @@ body {
   outline: 0 !important;
   border: none !important;
   i {
-    color: white;
+    color: black;
   }
 }
 
 .navbar-brand {
   font-size: 1.5rem;
-  color: white;
-  border-bottom: 1px solid white;
+  color: black;
+  border-bottom: 1px solid black;
   &:hover {
-    color: white;
+    color: black;
   }
 }
 
@@ -60,7 +59,7 @@ body {
 }
 
 .nav-link {
-  color: white;
+  color: black;
 }
 
 .nav-link-login {
@@ -97,7 +96,7 @@ body {
   width: 15px;
   height: 15px;
   display: flex;
-  color: white;
+  color: black;
   justify-content: center;
   align-items: center;
 }
@@ -123,7 +122,7 @@ body {
   z-index: 10;
   border-radius: 50%;
   background: transparent;
-  border: 1.5px solid white;
+  border: 1.5px solid black;
   margin: 0 2.3px;
   cursor: pointer;
 }
@@ -143,7 +142,7 @@ body {
   cursor: pointer;
 
   i {
-    color: white;
+    color: black;
   }
 }
 
@@ -159,7 +158,7 @@ body {
 
 .mega-menu-link {
   font-size: 0.78rem;
-  color: rgb(255, 255, 255);
+  color: black;
   text-decoration: none;
   transition: all 325ms;
   font-weight: 500;
@@ -169,14 +168,7 @@ body {
     font-weight: 600;
   }
 }
-.mega-menu-li {
-  height: 100%;
-  width: 100%;
-  a {
-    height: 100%;
-    width: 100%;
-  }
-}
+
 .mega-menu-section {
   position: absolute;
   top: 100%;
@@ -251,7 +243,7 @@ body {
   font-weight: 500;
   span {
     background: rgba(100, 100, 100, 0.541);
-    color: white;
+    color: black;
     padding: 0.4em 1.1em;
     clip-path: $brand-clipPath;
   }
@@ -267,7 +259,7 @@ body {
   opacity: 0.7;
   background: rgb(111, 180, 245);
   padding: 0.4em 1.1em;
-  color: white;
+  color: black;
   clip-path: $brand-clipPath;
 }
 
@@ -420,7 +412,7 @@ body {
   font-weight: 400;
   outline: 0;
   border: none;
-  background: black;
+  background: white;
   padding: 0.6em 1.1em;
   line-height: 1;
 

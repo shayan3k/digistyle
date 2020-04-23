@@ -34,7 +34,7 @@ export default function Hero() {
 
   return (
     <div className="container-fluid hero w-100 vh-100 border m-0 p-0">
-      <Navbar />
+      <Navbar absolute={true} />
       <Swiper {...params}>
         <div
           className="w-100 vh-100"
