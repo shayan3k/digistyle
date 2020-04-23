@@ -1,104 +1,112 @@
+////////////////
 //BG CONFIG
+//////////////
 .bg-vip-advertisers-sim {
-    background: $brand-vip-advertisers;
-    font-weight: 700;
+  background: $brand-vip-advertisers;
+  font-weight: 700;
 }
 
 .bg-vip-advertisers-sim-owner {
-    background: $brand-vip-advertisers-second;
-    font-weight: 700;
+  background: $brand-vip-advertisers-second;
+  font-weight: 700;
 }
 .bg-advertisers-sim {
-    background: rgba(0, 24, 158, 0.185);
-    font-weight: 700;
+  background: rgba(0, 24, 158, 0.185);
+  font-weight: 700;
 }
 
 .bg-advertisers-sim-owner {
-    background: rgb(255, 139, 110);
+  background: rgb(255, 139, 110);
 }
 .bg-advertisers {
-    background: $brand-advertisers !important;
+  background: $brand-advertisers !important;
 }
 .bg-custom {
-    background: $brand-custom !important;
+  background: $brand-custom !important;
 }
 .bg-secondary {
-    background-color: $brand-secondary !important;
+  background-color: $brand-secondary !important;
 }
 
 .bg-primary {
-    background-color: $brand-primary !important;
+  background-color: $brand-primary !important;
 }
 .bg-background {
-    background-color: $brand-background !important;
+  background-color: $brand-background !important;
 }
 
 .bg-navbar2 {
-    background: $brand-navbar2;
+  background: $brand-navbar2;
 }
 
 .bg-admin-advertisers {
-    background-color: $bg-admin-advertisers !important;
+  background-color: $bg-admin-advertisers !important;
 }
 
+///////////////////
 //link  no style
-
+///////////////////
 .bg-links {
-    &:hover {
-        color: $bg-links;
-    }
+  &:hover {
+    color: $bg-links;
+  }
 }
 .noClick {
-    pointer-events: none !important;
+  pointer-events: none !important;
 }
 .white-space-nowrap {
-    white-space: nowrap !important;
+  white-space: nowrap !important;
 }
+
+//////////////////////////
 //FONT CLASSES;
+//////////////////////
 
 .font0 {
-    font-size: 0.4em !important;
+  font-size: 0.4em !important;
 }
 
 .font1 {
-    font-size: 0.6em !important;
+  font-size: 0.6em !important;
 }
 
 .font2 {
-    font-size: 0.7em !important;
+  font-size: 0.7em !important;
 }
 .font3 {
-    font-size: 0.8em !important;
+  font-size: 0.8em !important;
 }
 .font4 {
-    font-size: 0.9em !important;
+  font-size: 0.9em !important;
 }
 .font5 {
-    font-size: 1em !important;
+  font-size: 1em !important;
 }
 
 .font6 {
-    font-size: 1.1em !important;
+  font-size: 1.1em !important;
 }
 
 .font7 {
-    font-size: 1.2em !important;
+  font-size: 1.2em !important;
 }
 
 .font8 {
-    font-size: 1.3em !important;
+  font-size: 1.3em !important;
 }
 
 .font9 {
-    font-size: 1.4em !important;
+  font-size: 1.4em !important;
 }
 
 .font10 {
-    font-size: 2em !important;
+  font-size: 2em !important;
 }
-
+/////////////////////////
 ////////// Media Break Points
+///////////////////////////////
 /* Large desktops and laptops */
+
 @media (min-width: 1200px) {
 }
 

@@ -8,15 +8,15 @@ export default function Footer() {
         <h1 className="text-left">DIGISTYLE</h1>
         <h3 className="mb-5 text-left">Invernt Your Style</h3>
         <div className="text-left">
-          <Link className="footer-app-download d-inline-block">
+          <Link to="#" className="footer-app-download d-inline-block">
             دانلود اپلیکیشن
           </Link>
         </div>
         <div className="footer-social-icons mt-5">
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-telegram"></i>
-          <i class="fab fa-instagram"></i>
+          <i className="fab fa-twitter"></i>
+          <i className="fab fa-facebook-f"></i>
+          <i className="fab fa-telegram"></i>
+          <i className="fab fa-instagram"></i>
         </div>
       </div>
       <div className="col-5 d-flex justify-content-between align-items-center flex-column">
@@ -39,16 +39,31 @@ export default function Footer() {
       </div>
       <div className="col-2">
         <h1 className="footer-title">اطلاعات دیجی‌استایل</h1>
-        <Link className="footer-link d-block">درباره ما</Link>
-        <Link className="footer-link d-block">تماس با ما</Link>
-        <Link className="footer-link d-block">0912-9090 :پشتیبانی</Link>
+        <Link to="#" className="footer-link d-block">
+          درباره ما
+        </Link>
+        <Link to="#" className="footer-link d-block">
+          تماس با ما
+        </Link>
+        <Link to="#" className="footer-link d-block">
+          0912-9090 :پشتیبانی
+        </Link>
       </div>
       <div className="col-2">
         <h1 className="footer-title">خدمات مشتریان</h1>
-        <Link className="footer-link d-block"> پاسخ به پرسش‌های متداول</Link>
-        <Link className="footer-link d-block">رویه‌های بازگرداندن کالا</Link>
-        <Link className="footer-link d-block">شرایط استفاده</Link>
-        <Link className="footer-link d-block">حریم خصوصی</Link>
+        <Link to="#" className="footer-link d-block">
+          {" "}
+          پاسخ به پرسش‌های متداول
+        </Link>
+        <Link to="#" className="footer-link d-block">
+          رویه‌های بازگرداندن کالا
+        </Link>
+        <Link to="#" className="footer-link d-block">
+          شرایط استفاده
+        </Link>
+        <Link to="#" className="footer-link d-block">
+          حریم خصوصی
+        </Link>
       </div>
     </div>
   );

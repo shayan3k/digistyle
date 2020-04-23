@@ -169,7 +169,14 @@ body {
     font-weight: 600;
   }
 }
-
+.mega-menu-li {
+  height: 100%;
+  width: 100%;
+  a {
+    height: 100%;
+    width: 100%;
+  }
+}
 .mega-menu-section {
   position: absolute;
   top: 100%;
@@ -217,6 +224,7 @@ body {
   height: 1rem;
   padding: 0 0.5rem;
 }
+
 ////////////
 //popular brands
 /////////////////

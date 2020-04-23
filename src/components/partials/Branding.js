@@ -21,7 +21,10 @@ export default function Branding() {
           آرایشی و بهداشتی، لوازم خانه و اکسسوری‌هایی مانند ساعت مچی و عینک
           آفتابی را با تخفیف ویژه در حراج ها، پیدا کنید و به سادگی
         </div>
-        <Link className="branding-readmore d-block text-decoration-none text-left">
+        <Link
+          to="#"
+          className="branding-readmore d-block text-decoration-none text-left"
+        >
           بیشتر بخوانید
         </Link>
       </div>
