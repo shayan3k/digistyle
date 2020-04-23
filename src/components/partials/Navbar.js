@@ -4,6 +4,12 @@ import MegaMenuImg1 from "../../images/megaMenuMen1.png";
 import MegaMenuImg2 from "../../images/megaMenuMen2.png";
 import MegaMenuImg3 from "../../images/megaMenuMen3.png";
 import MegaMenuImg4 from "../../images/megaMenuMen4.png";
+import megaMenuTabIconSport from "../../images/megaMenuIconSport.png";
+import megaMenuTabIconBag from "../../images/megaMenuIconBag.webp";
+import megaMenuTabIconGlasses from "../../images/megaMenuIconGlasses.webp";
+import megaMenuTabIconShirt from "../../images/megaMenuIconShirt.jpg";
+import megaMenuTabIconShoe from "../../images/megaMenuIconShoe.png";
+
 export default function Navbar() {
   return (
     <nav className="container-fluid navbar row m-0 p-0">
@@ -112,8 +118,63 @@ export default function Navbar() {
         </ul>
       </div>
       <div className="col-12 position-relative">
-        <div className="mega-menu-section">
-          <div className="container px-md-5 row my-5 mx-auto">
+        <div className="mega-menu-section mega-menu-section-men">
+          <div className="container mx-auto border-bottom pt-1">
+            <ul className="d-flex justify-content-between align-items-center mx-auto mega-menu-section-tabs">
+              <li>
+                <Link>
+                  ورزشی
+                  <img
+                    className="mega-menu-tab-icons"
+                    src={megaMenuTabIconSport}
+                    alt="عکس"
+                  />
+                </Link>
+              </li>
+              <li>
+                <Link>
+                  اسسوری
+                  <img
+                    className="mega-menu-tab-icons"
+                    src={megaMenuTabIconGlasses}
+                    alt="عکس"
+                  />
+                </Link>
+              </li>
+              <li>
+                <Link>
+                  کفش
+                  <img
+                    className="mega-menu-tab-icons"
+                    src={megaMenuTabIconShoe}
+                    alt="عکس"
+                  />
+                </Link>
+              </li>
+              <li>
+                <Link>
+                  کیف
+                  <img
+                    className="mega-menu-tab-icons"
+                    src={megaMenuTabIconBag}
+                    alt="عکس"
+                  />
+                </Link>
+              </li>
+              <li>
+                <Link>
+                  لباس
+                  <img
+                    className="mega-menu-tab-icons"
+                    src={megaMenuTabIconShirt}
+                    alt="عکس"
+                  />
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div className="container px-md-5 row my-5 mx-auto d-none">
             <div className="col-6">
               <h1 className="mega-menu-title">برترین برندهای لباس مردانه</h1>
               <div className="row m-0 p-0">
@@ -148,7 +209,6 @@ export default function Navbar() {
                   </li>
                   <li>
                     <Link className="mega-menu-banner-link">
-                      {" "}
                       کت جین ست رسمی
                     </Link>
                   </li>
@@ -190,18 +250,63 @@ export default function Navbar() {
                   </li>
                   <li>
                     <Link className="mega-menu-banner-link">
-                      {" "}
                       جدیدترین‌ها برترین
                     </Link>
                   </li>
                   <li>
                     <Link className="mega-menu-banner-link">
-                      {" "}
                       برندهای لباس مردانه
                     </Link>
-                  </li>{" "}
+                  </li>
                 </ul>
               </div>
+            </div>
+          </div>
+
+          <div className="container px-md-5 row my-5 mx-auto h-auto">
+            <div className="col-6 border">
+              <h1 className="mega-menu-title">برترین برندهای کیف مردانه</h1>
+              <div className="row m-0 p-0">
+                <div className="col-6 p-0 m-0">
+                  <img src={MegaMenuImg1} alt="عکس" className="w-100" />
+                </div>
+                <div className="col-6 p-0 m-0">
+                  <img src={MegaMenuImg1} alt="عکس" className="w-100" />
+                </div>
+                <div className="col-6 p-0 m-0">
+                  <img src={MegaMenuImg1} alt="عکس" className="w-100" />
+                </div>
+                <div className="col-6 p-0 m-0">
+                  <img src={MegaMenuImg1} alt="عکس" className="w-100" />
+                </div>
+              </div>
+            </div>
+            <div className="col-3 mr-auto border">
+              <h1 className="mega-menu-title">خرید کیف مردانه</h1>
+              <ul className="list-unstyled">
+                <li>
+                  <Link className="mega-menu-banner-link">کیف </Link>
+                </li>
+                <li>
+                  <Link className="mega-menu-banner-link">کیف پول</Link>
+                </li>
+                <li>
+                  <Link className="mega-menu-banner-link">
+                    کیف سفری و چمدان
+                  </Link>
+                </li>
+                <li>
+                  <Link className="mega-menu-banner-link">کوله پشتی</Link>
+                </li>
+                <li>
+                  <Link className="mega-menu-banner-link">فروش ویژه</Link>
+                </li>
+                <li>
+                  <Link className="mega-menu-banner-link">
+                    جدیدترین‌ها برترین
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

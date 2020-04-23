@@ -198,6 +198,25 @@ body {
     text-decoration: none;
   }
 }
+
+.mega-menu-section-tabs {
+  list-style-type: none;
+  a {
+    padding: 0 0.6rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 2;
+    color: black;
+    &:hover {
+      border-bottom: 2px solid rgb(159, 250, 147);
+      text-decoration: none;
+    }
+  }
+}
+.mega-menu-tab-icons {
+  height: 1rem;
+  padding: 0 0.5rem;
+}
 ////////////
 //popular brands
 /////////////////
