@@ -11,6 +11,11 @@ import Navbar from "./Navbar";
 
 export default function Hero() {
   const params = {
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
     pagination: {
       el: ".swiper-pagination",
       type: "bullets",
