@@ -282,15 +282,15 @@ export default function Navbar(props) {
       >
         <ul className="d-flex justify-content-center align-items-center list-unstyled m-0">
           <li className="nav-item">
-            <a
+            <Link
               className="nav-link font4 nav-link-login"
-              href="#"
+              to="/login"
               data-toggle="tooltip"
               data-placement="bottom"
               title="Tooltip on bottom"
             >
               وارد شوید
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
             <a

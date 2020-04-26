@@ -1,18 +1,16 @@
 import React from "react";
 import Navbar from "./partials/Navbar";
 import Footer from "./partials/Footer";
-import ProductDetails from "./partials/ProductDetails";
-import ProductInfo from "./partials/ProductInfo";
-import BreadCrumbs from "./partials/BreadCrumbs";
+import DashboardPanel from "./partials/DashboardPanel";
 import Developer from "./partials/Developer";
+import BreadCrumbs from "./partials/BreadCrumbs";
 
-export default function ProductPage() {
+export default function Dashboard() {
   return (
     <>
       <Navbar />
       <BreadCrumbs />
-      <ProductInfo />
-      <ProductDetails />
+      <DashboardPanel />
 
       <Footer />
       <Developer />

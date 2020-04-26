@@ -1,14 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.css";
+import "jquery/src/jquery";
+import "bootstrap/dist/js/bootstrap.min.js";
 import "@fortawesome/fontawesome-free/css/all.css";
 import "swiper/swiper.scss";
 import "./scss/style.scss";
-import $ from "jquery";
 import App from "./App";
-
-window.jQuery = $;
-require("bootstrap");
 
 // import * as serviceWorker from "./serviceWorker";
 
