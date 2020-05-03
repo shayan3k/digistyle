@@ -16,7 +16,7 @@ function App() {
           <Route exact path="/">
             <Shop />
           </Route>
-          <Route exact path="/mens-apparel-shop">
+          <Route exact path="/men">
             <Mens />
           </Route>
           <Route exact path="/item">
