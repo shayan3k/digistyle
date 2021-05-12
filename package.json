@@ -17,7 +17,7 @@
         "react-dom": "^16.13.1",
         "react-id-swiper": "^3.0.0",
         "react-router-dom": "^5.1.2",
-        "swiper": "^5.3.7"
+        "swiper": "^6.5.1"
     },
     "scripts": {
         "crabuild": "react-scripts build",
